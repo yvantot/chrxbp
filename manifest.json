@@ -1,0 +1,42 @@
+{
+	"manifest_version": 3,
+	"name": "__MSG_ext_name__",
+	"description": "__MSG_ext_description__",
+	"version": "1.0",
+	"default_locale": "en",
+	"homepage_url": "https://www.github.com/",
+	"permissions": ["storage"],
+	"options_page": "/src/option/option.html",
+	"action": {
+		"default_popup": "/src/popup/popup.html",
+		"default_title": "",
+		"default_icon": {
+			"16": "/src/assets/icons/icon.png",
+			"48": "/src/assets/icons/icon.png",
+			"128": "/src/assets/icons/icon.png"
+		}
+	},
+	"background": {
+		"service_worker": "/src/background.js"
+	},
+	"icons": {
+		"16": "/src/assets/icons/icon.png",
+		"48": "/src/assets/icons/icon.png",
+		"128": "/src/assets/icons/icon.png"
+	},
+	"content_scripts": [
+		{
+			"js": ["/src/content/content.js"],
+			"css": ["/src/content/content.css"],
+			"matches": ["<all_urls>"]
+		}
+	],
+	"commands": {
+		"on_command": {
+			"suggested_key": {
+				"default": "Alt+Up"
+			},
+			"description": "What this command does?"
+		}
+	}
+}

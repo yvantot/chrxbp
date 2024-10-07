@@ -1,0 +1,11 @@
+{
+	"ext_name": {
+		"message": "Extension"
+	},
+	"ext_description": {
+		"message": "Boilerplate"
+	},
+	"locale_test": {
+		"message": "Working!"
+	}
+}

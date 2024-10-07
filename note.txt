@@ -1,0 +1,10 @@
+@ Jun Ivanne Dalman
+
+Boilerplate Feature
+-- Configured manifest
+-- Localization support
+-- HTML boilerplates for extension, CSS reset & critical media-queries
+-- Popup, Content, Option, Background Initialization
+-- CSS files path
+-- Icon files path
+-- Useful utility tools for building extensions

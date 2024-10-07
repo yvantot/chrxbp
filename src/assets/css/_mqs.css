@@ -1,0 +1,15 @@
+/* Media Queries */
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+/* Put default styles here */
+@media (prefers-reduced-motion: reduce) {
+}
+
+/* Put aggressive transitions, animations, movements here */
+@media (prefers-reduced-motion: no-preference) {
+}

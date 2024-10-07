@@ -1,0 +1,13 @@
+/* General style for extension */
+
+@font-face {
+	font-family: Quicksand;
+	src: url(../Quicksand.ttf);
+}
+
+*,
+*::before,
+*::after {
+	font-family: Quicksand;
+	font-size: 16px;
+}

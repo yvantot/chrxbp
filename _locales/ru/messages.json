@@ -1,0 +1,11 @@
+{
+	"ext_name": {
+		"message": "Расширение"
+	},
+	"ext_description": {
+		"message": "Шаблон"
+	},
+	"locale_test": {
+		"message": "Работающий!"
+	}
+}

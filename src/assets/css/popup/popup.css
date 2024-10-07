@@ -1,0 +1,9 @@
+@import url(../_reset.css);
+@import url(../_setup.css);
+@import url(../_mqs.css);
+
+/* CSS Here */
+body {
+	width: 280px;
+	height: 400px;
+}
