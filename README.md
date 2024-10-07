@@ -11,4 +11,4 @@
 <li>Useful utility tools for building extensions</li>
 
 <h2>Install with npm</h2>
-<p><strong>npm install chroxt-boilerplate</strong></p>
+<p><strong>npm init -y<br>npm install chroxt-boilerplate</strong></p>
